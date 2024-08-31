@@ -8,7 +8,7 @@ public class Hello
     {
         if(n==0)
           return ;
-        System.out.print(n);
-        fun(n-1);
+        System.out.print(n+" ");
+        print(n-1);
     }
   }
